@@ -1,0 +1,8 @@
+install express and jsonwebtoken
+
+There is a user computer and a server
+here when a user login from the computer the userid and password is sent to the server and then the userid and password is verified with the sotred details in the server.
+When the details matches the server generates a token and the token is given to the user computer.
+Token generated help to verify the user from the server
+If the token sent is wrong or expired it will responed authentication error, authentication failed.
+the token is so strong that no other user can access it.
